@@ -12,13 +12,13 @@ const TasksDueSoonScreen = () => {
     return diffInDays >= 0 && diffInDays <= 15;
   });
 
-  const renderCard = ({ item }) => {
+  const renderCard = ({ item }) => (
     <View style={styles.card}>
       <Text style={styles.cardTitle}>{item.title}</Text>
       <Text>Status: {item.status}</Text>
       <Text>Data/Hora Término: {new Date(item.dueDate).toLocaleString()}</Text>
-    </View>;
-  };
+    </View>
+  );
 
   return (
     <View style={styles.container}>
