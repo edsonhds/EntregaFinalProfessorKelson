@@ -1,1 +1,1 @@
-Entrega Final - Disciplina: Dispostivos Movies - Profº Kelson
+Entrega Final - Disciplina: Programação de Dispostivos Móveis - Profº Kelson
